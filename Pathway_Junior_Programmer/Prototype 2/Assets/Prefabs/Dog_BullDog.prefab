@@ -2664,6 +2664,8 @@ GameObject:
   - component: {fileID: 7835376044082119974}
   - component: {fileID: 8200276363156627692}
   - component: {fileID: 5695614869807966398}
+  - component: {fileID: 7010113443408704800}
+  - component: {fileID: 8832459111913766075}
   m_Layer: 0
   m_Name: Dog_BullDog
   m_TagString: Untagged
@@ -2757,7 +2759,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73216b0ae7ca9ce459a0ec5647b76594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 5
+--- !u!114 &7010113443408704800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515512494096858917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 632a37a4241302b4a81a97d7011b251c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8832459111913766075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515512494096858917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7f886904d870248b8cb828646beb8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4534651241077398904
 GameObject:
   m_ObjectHideFlags: 0
@@ -3033,6 +3059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3280209439602273273}
   - component: {fileID: 8787142929915223680}
+  - component: {fileID: 3426127058661355755}
   m_Layer: 0
   m_Name: SM_BullDog_01
   m_TagString: Untagged
@@ -3155,6 +3182,27 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000000037252903, y: -0.031677894, z: 0.09405647}
     m_Extent: {x: 0.069370374, y: 0.10170119, z: 0.1267545}
   m_DirtyAABB: 0
+--- !u!65 &3426127058661355755
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4635228308040654745}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13874075, y: 0.20340239, z: 0.25350899}
+  m_Center: {x: -0.00000000372529, y: 0.10170118, z: 0.0021660104}
 --- !u!1 &4648637182886269609
 GameObject:
   m_ObjectHideFlags: 0
