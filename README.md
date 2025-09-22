@@ -9,6 +9,9 @@ https://learn.unity.com/u/5fe8e6ffedbc2a125b193502?tab=profile
 ## Pathway Projects
 
 ### Junior Programmer – Prototype 1
-A simple prototype from the Junior Programmer pathway.
 
 ![Prototype 1 Gameplay](gifs/prototype1.gif)
+
+### Junior Programmer – Prototype 2
+
+![Prototype 2 Gameplay](gifs/prototype2.gif)
