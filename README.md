@@ -21,3 +21,7 @@ Learned to make a simple 3D game with player movement and physics.
 
 Learned to make a simple top-down 3D game with player movement, shooting, enemy spawning and out of bounds handling.
 ![Prototype 2 Gameplay](gifs/prototype2.gif)
+
+### Junior Programmer – Prototype 3
+
+_Status: Ongoing_
