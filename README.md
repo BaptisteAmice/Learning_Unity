@@ -24,4 +24,5 @@ Learned to make a simple top-down 3D game with player movement, shooting, enemy 
 
 ### Junior Programmer – Prototype 3
 
-_Status: Ongoing_
+Learned to make a simple game with particle and sound effects.
+![Prototype 3 Gameplay](gifs/prototype3.gif)
